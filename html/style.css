@@ -1,0 +1,217 @@
+body {
+    margin-top: 380px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+
+
+.toast {
+    width: 115px;
+    float: right;
+}
+
+
+
+.wrapper {
+    width: 100px;
+    height: auto;
+    background-color: #000000;
+    float: right;
+}
+
+
+
+.main {
+    margin: 10px 10px 10px 60px;
+    position: relative;
+}
+
+
+
+.main::before {
+    font-size: 35px;
+    top: calc(50% - 12px);
+    left: -50px;
+    line-height: 22px;
+    position: absolute;
+}
+
+
+
+/* NORMAL TYPE */
+
+.normal_icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0e0";
+    color: #ffffff;
+    text-shadow: 4px 4px 5px #000000;
+}
+
+.normal {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.normal_border {
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 4px solid #ffffff;
+    border-left: 4px solid #ffffff;
+    box-shadow: #000000 0px -40px 46px -28px inset;
+}
+
+
+
+/* POLICE TYPE */
+
+.police_icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0f3";
+    color: #2f83ff;
+    text-shadow: 4px 4px 5px #000000;
+}
+
+.police {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #2f83ff;
+    padding: 5px 5px 5px 5px;
+}
+
+.police_border {
+    border-top: 1px solid #2f83ff;
+    border-right: 1px solid #2f83ff;
+    border-bottom: 4px solid #2f83ff;
+    border-left: 4px solid #2f83ff;
+    box-shadow: #000000 0px -40px 46px -28px inset;
+}
+
+
+
+/* AMBULANCE TYPE */
+
+.ambulance_icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\e05c";
+    color: #FD3A4A;
+    text-shadow: 4px 4px 5px #000000;
+}
+
+.ambulance {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #FD3A4A;
+    padding: 5px 5px 5px 5px;
+}
+
+.ambulance_border {
+    border-top: 1px solid #FD3A4A;
+    border-right: 1px solid #FD3A4A;
+    border-bottom: 4px solid #FD3A4A;
+    border-left: 4px solid #FD3A4A;
+    box-shadow: #000000 0px -40px 46px -28px inset;
+}
+
+
+
+
+/* ERROR TYPE */
+
+.error_icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f071";
+    color: #ff0015;
+    text-shadow: 4px 4px 5px #0c0c0c;
+}
+
+.error {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #ff0015;
+    padding: 5px 5px 5px 5px;
+}
+
+.error_border {
+    border-top: 1px solid #ff0015;
+    border-right: 1px solid #ff0015;
+    border-bottom: 4px solid #ff0015;
+    border-left: 4px solid #ff0015;
+    box-shadow: #000 0px -40px 46px -28px inset;
+}
+
+
+
+/* SUCCESS TYPE */
+
+.success_icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    color: #44DA4F;
+    text-shadow: 4px 4px 5px #000000;
+}
+
+.success {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #44DA4F;
+    padding: 5px 5px 5px 5px;
+}
+
+.success_border {
+   border-radius: 0px;
+    border-top: 1px solid #44DA4F ;
+    border-right: 1px solid #44DA4F ;
+    border-bottom: 4px solid #44DA4F  ;
+    border-left: 4px solid #44DA4F ;
+    box-shadow: #000000   0px -40px 46px -28px inset;
+}
+
+
+
+/* INFO TYPE */
+
+.info_icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f05a";
+    color: #4c00ff;
+    text-shadow: 4px 4px 5px #000000;
+}
+
+.info {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #4c00ff;
+    padding: 5px 5px 5px 5px;
+}
+
+.info_border {
+    border-top: 1px solid #4c00ff;
+    border-right: 1px solid #4c00ff;
+    border-bottom: 4px solid #4c00ff;
+    border-left: 4px solid #4c00ff;
+    box-shadow: #000000 0px -40px 46px -28px inset;
+}
+
+
+
+/* WARNING TYPE */
+
+.warning_icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f06a";
+    color: #FA5B3D;
+    text-shadow: 4px 4px 5px #000000;
+}
+
+.warning {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #FA5B3D;
+    padding: 5px 5px 5px 5px;
+}
+
+.warning_border {
+    border-top: 1px solid #FA5B3D;
+    border-right: 1px solid #FA5B3D;
+    border-bottom: 4px solid #FA5B3D;
+    border-left: 4px solid #FA5B3D;
+    box-shadow: #000000 0px -40px 46px -28px inset;
+}
+
+
